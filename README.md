@@ -8,6 +8,7 @@ Sistema de gerenciamento para cartões de transporte urbano unificado.
 
 ```bash
 npm install
+
 2. Banco de Dados
 sql
 
@@ -32,6 +33,7 @@ npm start
 
 
 📋 Endpoints Principais
+
 🔐 Autenticação
 POST /auth/register - Cadastrar usuário
 
