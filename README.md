@@ -6,6 +6,8 @@ Sistema de gerenciamento para cartões de transporte urbano unificado.
 
 ### 1. Instalar
 
+
+
 ```bash
 
 npm install
@@ -61,13 +63,18 @@ GET /empresas - Listar empresas
 POST /empresas - Adicionar empresa
 
 🎯 Funcionalidades
- Cartão unificado funciona em qualquer empresa
 
- Quando usado, dinheiro vai para empresa específica
+ Cartão unificado: pode ser usado em várias empresas integradas.
 
- Autenticação JWT segura
+ Recarga e saldo centralizado: saldo único entre todos os transportes.
 
- Senhas criptografadas
+ Histórico de recargas e usos.
+
+ Autenticação JWT segura.
+
+ Senhas criptografadas com bcrypt.
+
+ Banco de dados relacional PostgreSQL.
 
 
 🧪 Teste Rápido
@@ -93,9 +100,7 @@ POST /cartoes/usar
 {"id_cartao": 1, "id_empresa": 1, "valor_passagem": 4.50}
 Desenvolvido para Sistemas de Apoio - 3ºB
 
-text
 
----
 
 ## 📁 **Estrutura de Arquivos Necessários:**
 
